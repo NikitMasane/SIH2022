@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Government of rural department</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="govn.css">
+  <link rel="stylesheet" href="register.css">
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-amber.css">
+
+</head>
+
+<body>
+
+  <div class="header">
+    <h1>Government of rural department</h1>
+  </div>
+
+  <br>
+
+
+  <div class="row">
+
+    <img class="national-emblem" alt="national emblem"
+      src="https://rural.nic.in/sites/all/themes/rural/images/emblem-dark.png">
+    <div class="colume">
+      <table class="national">
+        <tr>
+          <th>ग्रामीण विकास मंत्रालय</th>
+        </tr>
+        <tr>
+          <th><span style=" font-size: small;  font-weight: 700;">भारत सरकार</span></th>
+        </tr>
+        <tr>
+          <th><span style="font-size: large; font-weight: 700;">CENTRAL MINISTRY OF RURAL DEPARTMENT</span></th>
+        </tr>
+        <tr>
+          <th><span style=" font-size: small;  font-weight: 700;">GOVERNMENT OF INDIA</span></th>
+        </tr>
+      </table>
+    </div>
+
+    <div class="colume">
+      <table class="swach">
+        <tr>
+          <td><img class="national-emblem" alt="national flag"
+              src="https://rural.nic.in/sites/default/files/flag_india.gif">
+            <img class="national-emblem" alt="swach bharat"
+              src="https://rural.nic.in/sites/all/themes/rural/images/swach-bharat.png">
+          </td>
+        </tr>
+      </table>
+    </div>
+
+  </div>
+
+  <br>
+
+  <!-- NAVIGATION  -->
+  <div class="topnav">
+    <a href="#"><i class="fa fa-fw fa-home"></i>Home</a>
+    <a href="#">About</a>
+    <a href="#">Department</a>
+    <a href="#">News</a>
+    <a href="#">dashboard</a>
+    <a href="#">Contact us</a>
+    <div class="search-container">
+      <form action="/action_page.php">
+        <!-- <input type="text" placeholder="Search.." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button> -->
+      </form>
+    </div>
+    <a href="#" style="float:right"><i class="fa fa-fw fa-user"></i>Login</a>
+  </div>
+  <br>
+
+
+
+
+
+
+
+
+  <!--      main content  ministry-->
+
+  <!-- ---------------------------two item------------------------------------->
+  <div class="row" id="row">
+    <div class="side" id="side">
+
+
+      <h2>DASHBOARD</h2>
+
+      <div class="fakeimg">
+        <a target="_blank" href="https://dashboard.rural.nic.in/dashboardnew/mgnrega.aspx">
+          <img src="https://rural.nic.in/sites/default/files/dash-new-01.jpg" width="25%" class="imgi">
+        </a>
+        <p>Mahatma Gandhi National Rural Employment Guarantee Act</p>
+      </div>
+      <br>
+
+      <div class="fakeimg">
+        <a target="_blank" href="https://dashboard.rural.nic.in/dashboardnew/pmayg.aspx">
+          <img src="https://rural.nic.in/sites/default/files/dash-new-02.jpg" width="25%" class="imgi">
+        </a>
+        <p>Mahatma Gandhi National Rural Employment Guarantee Act</p>
+      </div>
+
+
+    </div>
+
+
+    <!--  ministry -->
+
+    <div class="main" id="login">
+      <form method="" action="" name="reg_form" onsubmit="return validate()"></form>
+      <!-- <div class="w3-row-padding w3-theme"> -->
+      <div id="SignUp">
+        <h2><b>Sign Up Form</b></h2>
+      </div>
+
+      <form action="/action_page.php" method="post" name="myform">
+
+        <div class="container">
+          <label for="uname"><b>Full Name</b></label>
+          <input type="text" placeholder="Enter Full Name" name="fname" required>
+
+          <label for="uname"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email Adress" name="Email" required>
+
+          <label for="uname"><b>Phone Number</b></label>
+          <input type="text" placeholder="Enter Phone Number" name="PhoneNo" required>
+
+          <label for="uname"><b>Address</b></label>
+          <input type="text" placeholder="Enter Address" name="address" required>
+
+          <div class="row">
+            <label for="uname"><b>State</b></label>
+            <div class="col"><input type="text" class="form-control" name="State" placeholder="Enter State"
+                required="required"></div>
+            <label for="uname"><b>District</b></label>
+            <div class="col"><input type="text" class="form-control" name="District" placeholder="Enter District"
+                required="required"></div>
+            <br>
+          </div>
+          <div class="row">
+            <label for="uname"><b>Taluka</b></label>
+            <div class="col"><input type="text" class="form-control" name="Taluka" placeholder="Enter Taluka"
+                required="required"></div>
+            <label for="uname"><b>Pincode</b></label>
+            <div class="col"><input type="text" class="form-control" name="Pincode" placeholder="Enter Pincode"
+                required="required"></div>
+          </div>
+
+          <!-- </div>        	 -->
+          <!-- </div> -->
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+
+          <button id="submit" type="submit" onclick="validate">Sign Up</button>
+          <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Cancel</button>
+
+          </div>
+        </div>
+
+      </form>
+
+    </div>
+
+    <!-- ----------------------------------------------------- -->
+
+    <!---------------------------footer------------------------------------->
+
+    <footer class="footer-distributed">
+
+      <div class="footer-left">
+
+        <h3>CENTRAL MINISTRY OF RURAL DEPARTMENT</h3>
+        <h4>GOVERNMENT OF INDIA</h4>
+        <p class="footer-links">
+          <a href="#" class="link-1">Home</a>
+          <a href="#">About</a>
+          <a href="#">Department</a>
+          <a href="#">News</a>
+          <a href="#">dashboard</a>
+          <a href="#">Contact us</a>
+        </p>
+
+        <p class="footer-company-name">Government Development © 2015</p>
+      </div>
+
+      <div class="footer-center">
+
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>dsfsdfsdffd</span> dsfsdfsdfsd, india</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+91 55.555.5555</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="#">sp@gov.com</a></p>
+        </div>
+
+      </div>
+
+      <div class="footer-right">
+
+        <p class="footer-company-about">
+          <span>About us</span>
+          Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus
+          vehicula sit amet.
+        </p>
+
+        <div class="footer-icons">
+          <a href="#"><i class="fa fa-google"></i></a>
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+
+          <a href="#"><i class="fa fa-youtube"></i></a>
+
+        </div>
+
+      </div>
+
+    </footer>
+    <script>
+
+      function validate() {
+        var fname = document.myform.fname.value;
+        var Email = document.myform.Email.value;
+        var PhoneNo = document.myform.PhoneNo.value;
+        var address = document.myform.address.value;
+        var State = document.myform.State.value;
+        var District = document.myform.District.value;
+        var Taluka = document.myform.Taluka.value;
+        var Pincode = document.myform.Pincode.value;
+        var psw = document.myform.psw.value;
+
+
+        if (fname == "") {
+          alert("Name is required");
+          fname.focus();
+          return false;
+        }
+        if (Email.value.length <= 0) {
+          alert("Last Name is required");
+          Email.focus();
+          return false;
+        }
+        if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(myForm.emailAddr.value)) {
+          return (true)
+        }
+        alert("You have entered an invalid email address!")
+        return (false)
+
+        if (PhoneNo.value.length <= 0) {
+          alert("Last Name is required");
+          pho.focus();
+          return false;
+        }
+        if (address.value.length <= 0) {
+          alert("Last Name is required");
+          Email.focus();
+          return false;
+        }
+        if (State.value.length <= 0) {
+          alert("Last Name is required");
+          State.focus();
+          return false;
+        }
+        if (Taluka.value.length <= 0) {
+          alert("Last Name is required");
+          Taluka.focus();
+          return false;
+        }
+        if (District.value.length <= 0) {
+          alert("Last Name is required");
+          District.focus();
+          return false;
+        }
+        if (isNaN(Pincode)){    
+          alert("Enter Numeric value only");
+          Pincode.focus();
+          return false;
+        }
+
+        if (psw.value==null && psw.value < 6) {
+          alert("Password must be at least 6 characters long.");
+          psw.focus();
+          return false;
+        }
+      }
+
+    </script>
+
+
+    if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(myForm.emailAddr.value))
+    {
+    return (true)
+    }
+    alert("You have entered an invalid email address!")
+    return (false)

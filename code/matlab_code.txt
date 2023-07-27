@@ -1,0 +1,15 @@
+%Inida's Lat 8 to 37 and long is 68.14712 to 97.34466 
+%Bounding Box. LatLng(7.798000, 68.14712),  LatLng(37.090000, 97.34466))
+%dist in Km
+% to create square deduct the points in SENW
+lat=[21.1863260000000;21.1863350000000;21.1860600000000]
+long =[72.8163970000000;72.8164860000000;72.8164980000000]
+    
+for(i=1:2)
+    dist(i)=posdist(lat(1),long(1),lat(i+1),long(i+1),'c');
+end
+dist1=dist*1000
+[Mx,lx] = min(long);
+[My, ly]=min(lat);
+rad1= 0.2/6371;
+ltdx=[-1.30000000000000e-05;1.30000000000000e-0
